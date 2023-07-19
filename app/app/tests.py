@@ -9,7 +9,8 @@ from app import calc
 class CalcTest(SimpleTestCase):
     """
     Test the add function of the calc object.
-    The add function takes two parameters and returns the sum of the two numbers.
+    The add function takes two parameters and 
+    returns the sum of the two numbers.
     """
     def test_add(self):
         """ Test adding numbers together."""
