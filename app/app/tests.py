@@ -7,7 +7,10 @@ from django.test import SimpleTestCase
 from app import calc
 
 class CalcTest(SimpleTestCase):
-    """Test the calc module."""
+    """
+    Test the add function of the calc object.
+    The add function takes two parameters and returns the sum of the two numbers.
+    """
     def test_add(self):
         """ Test adding numbers together."""
         res = calc.add(5, 6)

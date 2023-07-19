@@ -4,3 +4,8 @@ exclude =
     __pycache__,
     manage.py,
     settings.py
+
+ignore =
+    E303,
+    E302,
+    W391
