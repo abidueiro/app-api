@@ -25,7 +25,10 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+<<<<<<< HEAD
 requirements.dev.txt
+=======
+>>>>>>> ecf3450688bd89d35e8c381924f44c950a51edeb
 apunts.txt
 
 # PyInstaller
