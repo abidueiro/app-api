@@ -1,9 +1,5 @@
 ## better install version an limit to next major release
 
 Django>=3.2.4,<3.3 
-<<<<<<< HEAD
 djangorestframework<=3.12.4,<3.13
-=======
-djangorestframework>=3.12.4,<3.13
->>>>>>> ecf3450688bd89d35e8c381924f44c950a51edeb
-
+psycopg2>=2.8.6,<2.9
