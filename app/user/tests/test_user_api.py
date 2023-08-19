@@ -42,7 +42,7 @@ class PubblicUserApiTests(TestCase):
         payload = {
             'email': 'test@example.com',
             'password': 'testpass123',
-            'name' : 'Test Name',
+            'name': 'Test Name',
         }
         create_user(**payload)
         res = self.client.post(CREATE_USER_URL, payload)
@@ -54,7 +54,7 @@ class PubblicUserApiTests(TestCase):
         payload = {
             'email': 'test@example.com',
             'password': 'pw',
-            'name' : 'Test Name',
+            'name': 'Test Name',
         }
         res = self.client.post(CREATE_USER_URL, payload)
 
@@ -70,7 +70,7 @@ class PubblicUserApiTests(TestCase):
         user_details = {
             'email': 'test@example.com',
             'password': 'tes-user-password123',
-            'name' : 'Test Name',
+            'name': 'Test Name',
         }
         create_user(**user_details)
         payload = {
@@ -99,6 +99,3 @@ class PubblicUserApiTests(TestCase):
 
         self.assertNotIn('token', res.data)
         self.assertEqual(res.status_code, status.HTTP_400_BAD_REQUEST)
-
-
-# ME_URL = reverse('user:me')
