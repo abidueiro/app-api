@@ -1,15 +1,11 @@
 [flake8]
-exclude = 
+exclude =
     migrations,
     __pycache__,
     manage.py,
-<<<<<<< HEAD
-    settings.py
-=======
     settings.py
 
 ignore =
     E303,
     E302,
     W391
->>>>>>> ecf3450688bd89d35e8c381924f44c950a51edeb
